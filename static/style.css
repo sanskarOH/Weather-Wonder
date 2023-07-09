@@ -1,0 +1,24 @@
+:root {
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main-color: #0ef;
+}
+h1{
+    color: #0ef;
+    text-align: center;
+    font-weight: 200;
+    font-size: 5rem;
+    padding: 2rem;
+}
+
+html{
+    background-color: #323946;
+    align-items: center;
+    position: relative;
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+
+}

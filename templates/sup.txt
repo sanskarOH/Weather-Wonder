@@ -1,0 +1,16 @@
+ {% if error %}
+        <p>{{ error }}</p>
+    {% endif %}
+
+    {% if location %}
+        <h2>Weather in {{ location }}</h2>
+        <p>Temperature: {{ temperature }}°C</p>
+        <p>Humidity: {{ humidity }}%</p>
+        <p>Condition: {{ condition }}</p>
+    {% endif %}
+
+
+    --bg-color: #1f242d;
+    --second-bg-color: #323946;
+    --text-color: #fff;
+    --main-color: #0ef;
